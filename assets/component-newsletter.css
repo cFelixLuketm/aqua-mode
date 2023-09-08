@@ -25,6 +25,7 @@ button.close_button {
   height: 20px;
   cursor: pointer;
   z-index: 100;
+  line-height: 20px;
 }
 
 p.welcome__to__del__sol__salon {
@@ -36,7 +37,7 @@ p.welcome__to__del__sol__salon {
 div.field {
   margin-top: 1em;
 }
-/* 
+/*
 input {
   all: unset;
 } */
