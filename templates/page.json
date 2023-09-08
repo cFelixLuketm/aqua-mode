@@ -1,0 +1,120 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "45febd45-10d8-42c4-981b-0ddef11586cc": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16668051538139__45febd45-10d8-42c4-981b-0ddef11586cc-1675852200c9a3105d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "template--16668051538139__45febd45-10d8-42c4-981b-0ddef11586cc-1675852200c9a3105d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>1. FILL: Fill the serum pop’s internal cavity with <em>'Hyaluronic Melt Treatment'<\/em><\/p>"
+          }
+        },
+        "template--16668051538139__45febd45-10d8-42c4-981b-0ddef11586cc-1675852200c9a3105d-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16668051538139__45febd45-10d8-42c4-981b-0ddef11586cc-1675852200c9a3105d-0",
+        "template--16668051538139__45febd45-10d8-42c4-981b-0ddef11586cc-1675852200c9a3105d-1",
+        "template--16668051538139__45febd45-10d8-42c4-981b-0ddef11586cc-1675852200c9a3105d-2"
+      ],
+      "settings": {
+        "video": "shopify:\/\/files\/videos\/Fill_2dc9f0fa-014f-4fac-9a63-2659fd0c49c1.mp4",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "307d9472-1aef-4cee-867e-b5472ab1db8b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16668051538139__307d9472-1aef-4cee-867e-b5472ab1db8b-1675852200c9a3105d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "template--16668051538139__307d9472-1aef-4cee-867e-b5472ab1db8b-1675852200c9a3105d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>2. FREEZE: Freeze for 5 hours, or overnight.<br\/><\/p>"
+          }
+        },
+        "template--16668051538139__307d9472-1aef-4cee-867e-b5472ab1db8b-1675852200c9a3105d-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16668051538139__307d9472-1aef-4cee-867e-b5472ab1db8b-1675852200c9a3105d-0",
+        "template--16668051538139__307d9472-1aef-4cee-867e-b5472ab1db8b-1675852200c9a3105d-1",
+        "template--16668051538139__307d9472-1aef-4cee-867e-b5472ab1db8b-1675852200c9a3105d-2"
+      ],
+      "settings": {
+        "video": "shopify:\/\/files\/videos\/ChillV2.mp4",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "2ffc5fe0-64d4-4e0f-9cbd-00a0ef635970": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16668051538139__2ffc5fe0-64d4-4e0f-9cbd-00a0ef635970-1675852200c9a3105d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "template--16668051538139__2ffc5fe0-64d4-4e0f-9cbd-00a0ef635970-1675852200c9a3105d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>SCULPT: After cleansing, sculpt and re-energise your skin barrier by buffing the frozen bulb in upward motions,  a glaze will be left for your skin to drink up.<\/p>"
+          }
+        },
+        "template--16668051538139__2ffc5fe0-64d4-4e0f-9cbd-00a0ef635970-1675852200c9a3105d-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16668051538139__2ffc5fe0-64d4-4e0f-9cbd-00a0ef635970-1675852200c9a3105d-0",
+        "template--16668051538139__2ffc5fe0-64d4-4e0f-9cbd-00a0ef635970-1675852200c9a3105d-1",
+        "template--16668051538139__2ffc5fe0-64d4-4e0f-9cbd-00a0ef635970-1675852200c9a3105d-2"
+      ],
+      "settings": {
+        "video": "shopify:\/\/files\/videos\/Sculpt_4f75a2ad-8fbd-4005-bc16-fee99f3a5019.mp4",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "45febd45-10d8-42c4-981b-0ddef11586cc",
+    "307d9472-1aef-4cee-867e-b5472ab1db8b",
+    "2ffc5fe0-64d4-4e0f-9cbd-00a0ef635970"
+  ]
+}

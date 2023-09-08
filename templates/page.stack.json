@@ -1,0 +1,13 @@
+{
+  "sections": {
+    "stack-page": {
+      "type": "stack-page",
+      "settings": {
+        "heading": "Title"
+      }
+    }
+  },
+  "order": [
+    "stack-page"
+  ]
+}

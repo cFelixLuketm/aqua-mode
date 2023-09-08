@@ -1,0 +1,30 @@
+{
+  "sections": {
+    "about-page-text-image-one": {
+      "type": "about-page-text-image-one",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/scan00063_web.jpg",
+        "bodytext": "Luminous 27 is a contemporary jewellery studio born in Venezuela and now based in Madrid.   From our Latin American background to the European touch that distinguishes us, our pieces tell astory of mixtures and blends. Through our designs, we bend classic shapes to convey the exuberanceof Venezuela's \"mestizaje\"–a term that stands for Latin America's racial, social and culturalamalgams. Our items are timeless yet utterly contemporary; they're refreshing yet elegant; they canbe stacked, yet they are created as distinct jewels- allowing you to wear and combine them in anyway you want.  Since our first steps in 2018, we are proud to offer fine jewellery made from sustainable 18k Gold,ethically sourced diamonds and handpicked semi-precious stones. Our pieces are designed betweenMadrid and East London by a Venezuelan mother-daughter duo. All our production takes place in alocal atelier in the heart of Madrid, where our products are handmade with the highest attention todetail by a Venezuelan artisan."
+      }
+    },
+    "cd40bf33-9617-4b4a-9007-c7be8dc83fc9": {
+      "type": "about-page-text-image-two",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/scan0006_web.jpg",
+        "bodytext": "Luminous 27 is a mother-daughter duo from Venezuela. Head Designer Maria Margarita Toro wasborn and raised in Los Palos Grandes, Caracas. She graduated from Architecture at UniversidadCentral de Venezuela and was trained at her uncle Elias Toro’s studio during the years of Venezuela’seconomic splendour. For over 20 years, she worked in the Latin American fashion and design industry. In 2006, she relocated to Madrid with her daughter Isabella where she developed her careerin fine jewellery.\t\t\t\tCreative Director Isabella Benshimol is a Caracas-born London-based artist and art director. Afterstudying in Milan for three years, she moved to London in 2018 and graduated with a Master's in FineArt from Goldsmiths University. Growing up surrounded by her family's Latin American modernist artcollection, she developed a deep relationship with her Venezuelan heritage. She brings a sensual andeffortless contemporary view to Luminous 27’s direction. In 2018 Maria Margarita and Isabella founded Luminous Studio Jewelry, now Luminous 27."
+      }
+    },
+    "06a1f18e-c41d-46d9-8760-f3171ee1c406": {
+      "type": "about-page-text-image-one",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/scan00021_web.jpg",
+        "bodytext": "Our products are produced by a couple from Maracaibo, Venezuela, who run an artisan jewellerystudio in Madrid. Since 2008 we have built a long and trusting relationship with their atelier, which hasbecome a key studio in the iconic Calle Montera jewellery quarters.   Luminous 27 bridges old and new ways of working. We commit to exclusive, responsible andsustainable production by using traditional methods, hand-crafted techniques, and the latesttechnology. Producing locally and on demand allows us to support our Venezuelan community inMadrid while reducing resource and transportation waste."
+      }
+    }
+  },
+  "order": [
+    "about-page-text-image-one",
+    "cd40bf33-9617-4b4a-9007-c7be8dc83fc9",
+    "06a1f18e-c41d-46d9-8760-f3171ee1c406"
+  ]
+}
