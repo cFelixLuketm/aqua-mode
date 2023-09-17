@@ -194,8 +194,8 @@ div.color__title__wrapper__mobile {
 
 
 div.variant__wrapper {
-  width: 23vw;
-  display: flex;
+  /* width: 23vw; */
+  /* display: flex; */
   gap: 3rem;
   margin-bottom: 2vh;
 }
@@ -205,7 +205,7 @@ fieldset.product-form__input {
   flex-wrap: wrap;
   /* gap: 3rem;
   gap: 0.5rem 3rem; */
-  width: 24vw;
+  /* width: 24vw; */
 }
 
 .product__button__text {
@@ -272,6 +272,11 @@ p#topParagraph {
 
 
 @media only screen and (max-width: 750px) {
+
+  a.addtobag_mobile {
+    color: #FFFBF4;
+    font-size: 1.6rem;
+  }
 
   .product__button__text {
     cursor: pointer;
@@ -471,9 +476,9 @@ p#topParagraph {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
+    /* margin-bottom: 12.5px; */
     color: #FFFBF4;
-    height: 6vh;
+    /* height: 6vh; */
   }
 
   div#addToBag {
@@ -513,7 +518,7 @@ p#topParagraph {
     font-size: 1.6rem;
     margin: 0;
     padding: 0;
-    margin-top: 1.5rem;
+    /* margin-top: 1.5rem; */
     display: block;
   }
 }

@@ -412,11 +412,11 @@
               >
                 {%- if product.selected_or_first_available_variant.available and product.selected_or_first_available_variant.inventory_quantity >= 1 -%}
                     <span class="product__button__text inventoryNote">
-                      <a class="product__title purchace_button_text bag__button__mobile">Add to Bag</a>
+                      <a class="product__title">Add to Bag</a>
                     </span>
                 {% else %}
                     <span class="product__button__text inventoryNote">
-                      <a class="product__title purchace_button_text bag__button__mobile sold__out__mobile">Sold Out</a>
+                      <a class="product__title sold__out__mobile">Sold Out</a>
                     </span>
                 {%- endif -%}
                 <!-- <div class="loading-overlay__spinner hidden">

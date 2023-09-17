@@ -111,13 +111,13 @@ hr.footer__line.active {
 
 footer.footer {
   height: 10vh;
-      width: 99.5vw;
-      position: relative;
-      z-index: 0;
-      background-color: #fff;
-      display: flex;
-      justify-content: space-between;
-      margin-left: 0.5vw;
+  width: 99.5vw;
+  position: relative;
+  z-index: 0;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0.5vw;
 }
 
 div.options__wrapper {

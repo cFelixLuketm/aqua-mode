@@ -115,7 +115,7 @@ div#variantsMobile {
     opacity: 0;
     /* width: 10vw; */
     text-align: left;
-    margin-top: 40px;
+    margin-top: 35px;
     color: #B9B3A5;
     pointer-events: none;
 }
@@ -129,7 +129,7 @@ div#variantsMobile {
 
   div#variantsMobile {
     display: flex;
-    width: 94vw;
+    /* width: 94vw; */
     margin-bottom: 3vh;
   }
 
