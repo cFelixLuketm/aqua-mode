@@ -337,6 +337,13 @@ span#mobileDot {
     color: #ffffff;
     cursor: auto;
   }
+
+  a.product__title  {
+    font-size: 1.6rem;
+    color: #fffbf4;
+    cursor: pointer;
+    font-weight: lighter;
+  }
 }
 
 /*
