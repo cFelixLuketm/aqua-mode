@@ -520,7 +520,7 @@
             <a class="product__text__titles cart__footer mobile__related__items">{{ product.title }}</a>
           </div>
           <div class="product__text__related__mobile">
-            <a class="product__text__titles cart__footer mobile__related__items">{{ product.price | money_without_currency }}</a>
+            <a class="product__text__titles cart__footer mobile__related__items">${{ product.price | money_without_currency }}</a>
           </div>
         </div>
         {% endfor %}

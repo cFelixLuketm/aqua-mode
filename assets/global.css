@@ -88,7 +88,7 @@ a.menu__items:hover {
 a.product__title  {
   font-size: 14px;
   color: rgba(62, 41, 7, 1);
-  cursor: auto;
+  cursor: pointer;
 }
 
 a.init_page {
@@ -208,6 +208,19 @@ input {
   cursor: auto;
   line-height: 17px;
   cursor: pointer;
+}
+
+input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(62, 41, 7, 0.5);
+  opacity: 1; /* Firefox */
+}
+
+input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: rgba(62, 41, 7, 0.5);
+}
+
+input::-ms-input-placeholder { /* Microsoft Edge */
+  color: rgba(62, 41, 7, 0.5);
 }
 
 input.add__to__bag__text {
