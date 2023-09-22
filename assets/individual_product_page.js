@@ -10,6 +10,7 @@ buyButton.addEventListener("click", function(){
   window.setTimeout(function(){
     buyButton.style.pointerEvents = "none";
     AddToBagLine.style.marginTop = "-4.5vh";
+    AddToBagLine.style.opacity = 1;
   }, 750)
 })
 
@@ -67,12 +68,12 @@ if (screenWidthProductPage.matches) {
 } else {
   addToBag.addEventListener("mouseover", function(){
     // addToBagText.style.paddingLeft = "12.5vw";
-    addToBagLine.style.opacity = 1;
+    addToBagLine.classList.add('hovered')
   })
 
   addToBag.addEventListener("mouseout", function(){
     // addToBagText.style.paddingLeft = "0px";
-    addToBagLine.style.opacity = 0;
+    addToBagLine.classList.remove('hovered')
   });
 }
 
