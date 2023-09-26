@@ -142,7 +142,7 @@ footer.footer {
 @media screen and (min-width: 750px) {
 
   .media > img {
-  opacity: 1;
+  opacity: 0;
 }
 
   .banner--medium.banner--mobile-bottom:not(.banner--adapt) > .banner__media,
