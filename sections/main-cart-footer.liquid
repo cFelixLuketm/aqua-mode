@@ -17,13 +17,13 @@
     {% endif %}
     {%- if cart != empty -%}
       <div id="deviceDesktop" class="text__wrapper">
-        <span class="scroll-to-top">
+        <div class="scroll-to-top">
           <div class="continue__shopping__wrapper">
             <a href="/collections/all" class="menu__items">
               Continue Shopping
             </a>
           </div>
-        </span>
+        </div>
       </div>
 
 <div>
@@ -337,7 +337,7 @@
       {% endif %}
 
       <div id="deviceDesktop" class="text__wrapper">
-        <span class="scroll-to-top">
+        <div class="scroll-to-top">
           <div class="checkout__wrapper">
             <form action="{{ routes.cart_url }}" class="cart__contents critical-hidden" method="post" id="cart">
               {%- if cart != empty -%}
@@ -355,7 +355,7 @@
               {%- endif -%}
             </form>
           </div>
-        </span>
+        </div>
       </div>
     {%- endif -%}
     <p class="visually-hidden" id="cart-live-region-text" aria-live="polite" role="status"></p>

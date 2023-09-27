@@ -110,7 +110,7 @@ cart-remove-button .button:hover {
    position: sticky;
    transition: 350ms ease-in;
    top: calc(50%);
-   width: 30vw;
+   /* width: 30vw; */
 }
 
 div.text__wrapper {
