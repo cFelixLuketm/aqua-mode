@@ -137,9 +137,17 @@ footer.footer {
     height: 110vh;
     /* display: none; */
   }
+
+    .media > img {
+  opacity: 1;
+}
 }
 
 @media screen and (min-width: 750px) {
+
+  .media > img {
+  opacity: 0;
+}
 
   .banner--medium.banner--mobile-bottom:not(.banner--adapt) > .banner__media,
   .banner--medium.banner--stacked:not(.banner--mobile-bottom):not(.banner--adapt) > .banner__media {
