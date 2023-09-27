@@ -30,7 +30,7 @@
     {% endfor %}
   </div>
   <div class="text__wrapper">
-    <span class="scroll-to-top">
+    <div class="scroll-to-top">
       {%- assign product_form_id = 'product-form-' | append: section.id -%}
       {%- for block in section.blocks -%}
         {%- case block.type -%}
@@ -432,7 +432,7 @@
           </div>
         </div>
         <hr id="addToBagLine">
-      </span>
+      </div>
       {%- when 'text' -%}
       {%- when 'custom_liquid' -%}
       {%- when 'collapsible_tab' -%}
