@@ -12,22 +12,22 @@
 <div class="header__container" id="headerContainer">
   <header class="header__wrapper">
     <div class="header__grouped__items">
-      <a class="menu__items header_menu {% if template.name == 'index' %} homepage {% endif %} {% if handle == 'skincare' %} active__page__title {% endif %}" href="/collections/skincare" id="collectionOneTitle">
-        {{ collections['skincare'].title }}
-        {% if handle != 'skincare' %}
-          <span id="collectionOneCount" class="{% if template.name == 'index' %} homepage {% endif %}">{{ collections['skincare'].products.count }}</span>
-        {% elsif handle == 'skincare' %}
-          <span>{{ collections['skincare'].products.count }}</span>
+      <a class="menu__items header_menu {% if template.name == 'index' %} homepage {% endif %} {% if handle == 'shop-all' %} active__page__title {% endif %}" href="/collections/shop-all" id="collectionOneTitle">
+        {{ collections['shop-all'].title }}
+        {% if handle != 'shop-all' %}
+          <span id="collectionOneCount" class="{% if template.name == 'index' %} homepage {% endif %}">{{ collections['shop-all'].products.count }}</span>
+        {% elsif handle == 'shop-all' %}
+          <span>{{ collections['shop-all'].products.count }}</span>
         {% endif %}
       </a>
-      <a class="menu__items header_menu {% if template.name == 'index' %} homepage {% endif %} {% if handle == 'accessories' %} active__page__title {% endif %}" href="/collections/accessories" id="collectionTwoTitle">
+      {% comment %} <a class="menu__items header_menu {% if template.name == 'index' %} homepage {% endif %} {% if handle == 'accessories' %} active__page__title {% endif %}" href="/collections/accessories" id="collectionTwoTitle">
         {{ collections['accessories'].title }}
         {% if handle != 'accessories' %}
           <span id="collectionTwoCount" class="{% if template.name == 'index' %} homepage {% endif %}">{{ collections['accessories'].products.count }}</span>
         {% elsif handle == 'accessories' %}
           <span>{{ collections['accessories'].products.count }}</span>
         {% endif %}
-      </a>
+      </a> {% endcomment %}
     </div>
     <div class="mobile__menu__button" id="mobileMenuButton">
       <button class="lines-button x">

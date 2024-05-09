@@ -20,17 +20,17 @@ header.header__wrapper {
   top: 0;
   left: 0;
   width: 45vw;
-  margin-left: 35vw;
+  margin-left: 40vw;
   margin-top: 3.75vh;
   z-index: 3;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 div.header__grouped__items {
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
-  width: 15vw;
+  width: 15vw; */
   padding-right: 1vw;
 }
 

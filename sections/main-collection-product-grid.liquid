@@ -11,7 +11,7 @@
 </style>
 
 <div class="collection__wrapper">
-  {%- for product in collection.products limit: 3 -%}
+  {%- for product in collection.products -%}
     <div id="#productWrapper" class="individual__product__wrapper">
       <a href="{{ product.url}}">
         {% for image in product.images limit: 1 %}

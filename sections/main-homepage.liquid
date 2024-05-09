@@ -62,7 +62,8 @@ a.homepage  {
     {%- if section.settings.newsletter_enable -%}
         {%- if section.settings.newsletter_heading != blank -%}
           <p class="welcome__to__del__sol__salon">
-            {{ section.settings.newsletter_heading | escape }}
+            {% comment %} {{ section.settings.newsletter_heading | escape }} {% endcomment %}
+            welcome to aqua mode
           </p>
         {%- endif -%}
         {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
@@ -103,10 +104,6 @@ a.homepage  {
         {%- endform -%}
     {%- endif -%}
   </div>
-</div>
-
-<div class="quote__banner">
-  <a class="product__title init_page">A cooler approach to skincare</a>
 </div>
 
 <script src="{{ 'initalpage.js' | asset_url }}"></script>
