@@ -3,8 +3,8 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Screen_Shot_2023-09-26_at_11.05.51_pm.png",
-        "video_background": true,
+        "image": "shopify:\/\/shop_images\/Smaller_ab25252e-efe4-4cab-99f3-590f5da37d51.jpg",
+        "video_background": false,
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
